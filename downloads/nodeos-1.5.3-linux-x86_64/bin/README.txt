@@ -1,0 +1,3 @@
+1) nodeos v1.5.3 linux-x86_64 binary with ZMQ Plugin (https://github.com/cc32d9/eos_zmq_plugin)
+2) removed not needed symbol (make around 13 MB smaller binary) $ strip -S --strip-unneeded --remove-section=.note.gnu.gold-version --remove-section=.comment --remove-section=.note --remove-section=.note.gnu.build-id --remove-section=.note.ABI-tag nodeos
+3) tar -zcvf nodeos-1.5.3-linux-x86_64-binaries.tar.gz nodeos-1.5.3-linux-x86_64
